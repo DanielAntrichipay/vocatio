@@ -8,23 +8,10 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.net.URI;
-import java.sql.SQLIntegrityConstraintViolationException;
 
 @RestControllerAdvice
 public class ExceptionController {
     private final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(ExceptionController.class);
-
-    @ExceptionHandler(value = SQLIntegrityConstraintViolationException.class)
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    public ProblemDetail SQLIntegrityConstraintViolationException(SQLIntegrityConstraintViolationException exception) {
-        log.info("exception SQLIntegrityConstraintViolationException: {}", exception.getMessage());
-        ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.BAD_REQUEST);
-        problemDetail.setTitle("Ups, algo paso");
-        problemDetail.setType(URI.create("https://developer.mozilla.org/es/docs/Web/HTTP/Status/400"));
-        problemDetail.setDetail("El registro ya existe");
-        return problemDetail;
-    }
-
 
     @ExceptionHandler(value = Exception.class)
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
