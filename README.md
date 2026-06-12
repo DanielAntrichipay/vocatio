@@ -108,11 +108,11 @@ Una vez que veas en la consola:
 Started VocatioApplication in X.XXX seconds
 ```
 
-El servidor estará escuchando en **http://localhost:8080**.
+El servidor estará escuchando en **<http://localhost:8080>**.
 
 ### Swagger UI
 
-Documentación interactiva disponible en: **http://localhost:8080/swagger-ui.html**
+Documentación interactiva disponible en: **<http://localhost:8080/swagger-ui.html>**
 
 ---
 
@@ -126,6 +126,7 @@ curl -X POST http://localhost:8080/api/interview/start \
 ```
 
 **Respuesta (201):**
+
 ```json
 {
   "sessionId": "85dd3db6-71cb-43da-aa3e-caf9b8911012",
@@ -153,6 +154,7 @@ curl -X POST http://localhost:8080/api/interview/{sessionId}/answer \
 El valor va de **1** (nada de interés) a **5** (mucho interés).
 
 **Respuesta — Siguiente pregunta:**
+
 ```json
 {
   "status": "question",
@@ -162,6 +164,7 @@ El valor va de **1** (nada de interés) a **5** (mucho interés).
 ```
 
 **Respuesta — Resultado final:**
+
 ```json
 {
   "status": "finished",
@@ -237,7 +240,9 @@ vocatio/
 
 ## 👥 Autores
 
-- Daniel Antrichipay
+- Daniel Antrichipay.
+- Franco Cabeza.
+- Tomas Acosta.
 
 ---
 
