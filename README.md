@@ -56,7 +56,20 @@ La comunicación con Prolog se realiza mediante **JPL (Java Prolog Library)**, u
 
 ---
 
-## 🚀 Instalación
+## 🐳 Docker
+
+Si no querés instalar Java ni SWI-Prolog localmente, podés levantar el proyecto con Docker:
+
+```bash
+docker build -t vocatio .
+docker run -p 8080:8080 vocatio
+```
+
+La imagen incluye JDK 25, SWI-Prolog y JPL. No requiere ninguna dependencia en el host.
+
+---
+
+## 🚀 Instalación (sin Docker)
 
 ### 1. Clonar el repositorio
 
@@ -113,19 +126,6 @@ El servidor estará escuchando en **<http://localhost:8080>**.
 ### Swagger UI
 
 Documentación interactiva disponible en: **<http://localhost:8080/swagger-ui.html>**
-
-### 🐳 Docker
-
-Si no querés instalar Java ni SWI-Prolog localmente, podés levantar el proyecto con Docker:
-
-```bash
-docker build -t vocatio .
-docker run -p 8080:8080 vocatio
-```
-
-La imagen incluye JDK 25, SWI-Prolog y JPL. No requiere ninguna dependencia en el host.
-
----
 
 ## 📡 API
 
