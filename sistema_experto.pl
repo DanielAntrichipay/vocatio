@@ -66,18 +66,18 @@ carrera(diseno_grafico).
 carrera(arquitectura).
 carrera(comunicacion_social).
 
-nombre_carrera(ingenieria_sistemas, 'Ingenieria en Sistemas').
-nombre_carrera(tecnicatura_programacion, 'Tecnicatura en Programacion').
+nombre_carrera(ingenieria_sistemas, 'Ingeniería en Sistemas').
+nombre_carrera(tecnicatura_programacion, 'Tecnicatura en Programación').
 nombre_carrera(ciencia_datos, 'Ciencia de Datos').
 nombre_carrera(medicina, 'Medicina').
-nombre_carrera(enfermeria, 'Enfermeria').
-nombre_carrera(psicologia, 'Psicologia').
+nombre_carrera(enfermeria, 'Enfermería').
+nombre_carrera(psicologia, 'Psicología').
 nombre_carrera(derecho, 'Derecho').
-nombre_carrera(contador_publico, 'Contador Publico').
-nombre_carrera(administracion_empresas, 'Administracion de Empresas').
-nombre_carrera(diseno_grafico, 'Diseno Grafico').
+nombre_carrera(contador_publico, 'Contador Público').
+nombre_carrera(administracion_empresas, 'Administración de Empresas').
+nombre_carrera(diseno_grafico, 'Diseño Gráfico').
 nombre_carrera(arquitectura, 'Arquitectura').
-nombre_carrera(comunicacion_social, 'Comunicacion Social').
+nombre_carrera(comunicacion_social, 'Comunicación Social').
 
 % ============================================================
 % PREGUNTAS
@@ -89,128 +89,128 @@ nombre_carrera(comunicacion_social, 'Comunicacion Social').
 % ============================================================
 
 pregunta(q_interes_tecnologia, general, tecnologia,
-    'Cuanto te interesa la tecnologia, las computadoras o el mundo digital?').
+    '¿Cuánto te interesa la tecnología, las computadoras o el mundo digital?').
 
 pregunta(q_interes_salud, general, salud,
-    'Cuanto te interesa la salud, el cuerpo humano o el cuidado de personas?').
+    '¿Cuánto te interesa la salud, el cuerpo humano o el cuidado de personas?').
 
 pregunta(q_interes_personas, general, social,
-    'Cuanto te interesa trabajar con personas y comprender sus necesidades?').
+    '¿Cuánto te interesa trabajar con personas y comprender sus necesidades?').
 
 pregunta(q_creatividad_visual, general, arte_diseno,
-    'Cuanto te interesan la creatividad, el diseno, lo visual o lo estetico?').
+    '¿Cuánto te interesan la creatividad, el diseño, lo visual o lo estético?').
 
 pregunta(q_economia_gestion, general, economia,
-    'Cuanto te interesan la economia, la gestion, las empresas o los negocios?').
+    '¿Cuánto te interesan la economía, la gestión, las empresas o los negocios?').
 
 pregunta(q_comunicacion, general, comunicacion,
-    'Cuanto te interesa comunicar ideas, escribir, hablar o producir contenidos?').
+    '¿Cuánto te interesa comunicar ideas, escribir, hablar o producir contenidos?').
 
 pregunta(q_matematica_logica, general, tecnologia,
-    'Que tan comodo te sentis con la matematica, la logica o los problemas abstractos?').
+    '¿Qué tan cómodo te sentís con la matemática, la lógica o los problemas abstractos?').
 
 pregunta(q_lectura_teoria, general, investigacion,
-    'Cuanto te gusta leer, estudiar teoria y analizar textos complejos?').
+    '¿Cuánto te gusta leer, estudiar teoría y analizar textos complejos?').
 
 pregunta(q_leyes_normas, general, leyes,
-    'Cuanto te interesan las leyes, las normas, la justicia o los derechos?').
+    '¿Cuánto te interesan las leyes, las normas, la justicia o los derechos?').
 
 pregunta(q_investigacion, general, investigacion,
-    'Cuanto te interesa investigar, analizar informacion o buscar explicaciones profundas?').
+    '¿Cuánto te interesa investigar, analizar información o buscar explicaciones profundas?').
 
 pregunta(q_trabajo_equipo, general, social,
-    'Cuanto te gusta trabajar en equipo y coordinar con otras personas?').
+    '¿Cuánto te gusta trabajar en equipo y coordinar con otras personas?').
 
 pregunta(q_salida_laboral, general, economia,
-    'Que tan importante es para vos una salida laboral rapida o concreta?').
+    '¿Qué tan importante es para vos una salida laboral rápida o concreta?').
 
 % Tecnologia
 
 pregunta(q_programacion, especifica, tecnologia,
-    'Cuanto te atrae programar, crear software o automatizar tareas?').
+    '¿Cuánto te atrae programar, crear software o automatizar tareas?').
 
 pregunta(q_datos_estadistica, especifica, tecnologia,
-    'Cuanto te interesa analizar datos, patrones, estadisticas o predicciones?').
+    '¿Cuánto te interesa analizar datos, patrones, estadísticas o predicciones?').
 
 pregunta(q_software_apps, especifica, tecnologia,
-    'Cuanto te gustaria construir aplicaciones, sistemas web o herramientas digitales?').
+    '¿Cuánto te gustaría construir aplicaciones, sistemas web o herramientas digitales?').
 
 pregunta(q_resolver_errores, especifica, tecnologia,
-    'Cuanto disfrutas resolver errores, probar soluciones y mejorar sistemas?').
+    '¿Cuánto disfrutás resolver errores, probar soluciones y mejorar sistemas?').
 
 % Salud
 
 pregunta(q_biologia_cuerpo, especifica, salud,
-    'Cuanto te interesa la biologia, el cuerpo humano o las enfermedades?').
+    '¿Cuánto te interesa la biología, el cuerpo humano o las enfermedades?').
 
 pregunta(q_cuidado_pacientes, especifica, salud,
-    'Cuanto te interesa cuidar, asistir o acompanar pacientes?').
+    '¿Cuánto te interesa cuidar, asistir o acompañar pacientes?').
 
 pregunta(q_contextos_clinicos, especifica, salud,
-    'Que tan comodo estarias en hospitales, clinicas o contextos de atencion sanitaria?').
+    '¿Qué tan cómodo estarías en hospitales, clínicas o contextos de atención sanitaria?').
 
 pregunta(q_estudio_largo, especifica, salud,
-    'Que tan dispuesto estas a estudiar una carrera larga y exigente?').
+    '¿Qué tan dispuesto estás a estudiar una carrera larga y exigente?').
 
 % Social
 
 pregunta(q_escucha_empatia, especifica, social,
-    'Cuanto te consideras una persona empatica y con buena escucha?').
+    '¿Cuánto te considerás una persona empática y con buena escucha?').
 
 pregunta(q_comportamiento_humano, especifica, social,
-    'Cuanto te interesa comprender la conducta, las emociones o los conflictos humanos?').
+    '¿Cuánto te interesa comprender la conducta, las emociones o los conflictos humanos?').
 
 pregunta(q_acompanar_personas, especifica, social,
-    'Cuanto te interesa orientar, acompanar o ayudar a otras personas?').
+    '¿Cuánto te interesa orientar, acompañar o ayudar a otras personas?').
 
 % Economia
 
 pregunta(q_numeros_finanzas, especifica, economia,
-    'Cuanto te interesan los numeros, las finanzas, los impuestos o la contabilidad?').
+    '¿Cuánto te interesan los números, las finanzas, los impuestos o la contabilidad?').
 
 pregunta(q_organizacion_empresas, especifica, economia,
-    'Cuanto te interesa organizar recursos, procesos o equipos dentro de una empresa?').
+    '¿Cuánto te interesa organizar recursos, procesos o equipos dentro de una empresa?').
 
 pregunta(q_toma_decisiones_negocios, especifica, economia,
-    'Cuanto te interesa tomar decisiones de negocio, planificar o gestionar proyectos?').
+    '¿Cuánto te interesa tomar decisiones de negocio, planificar o gestionar proyectos?').
 
 % Arte y diseno
 
 pregunta(q_diseno_visual, especifica, arte_diseno,
-    'Cuanto te interesa crear piezas visuales, marcas, interfaces o composiciones graficas?').
+    '¿Cuánto te interesa crear piezas visuales, marcas, interfaces o composiciones gráficas?').
 
 pregunta(q_espacios_objetos, especifica, arte_diseno,
-    'Cuanto te interesa disenar espacios, edificios, objetos o ambientes?').
+    '¿Cuánto te interesa diseñar espacios, edificios, objetos o ambientes?').
 
 pregunta(q_creacion_multimedia, especifica, arte_diseno,
-    'Cuanto te interesa crear contenido audiovisual, imagen, video o piezas multimedia?').
+    '¿Cuánto te interesa crear contenido audiovisual, imagen, video o piezas multimedia?').
 
 % Comunicacion
 
 pregunta(q_redaccion, especifica, comunicacion,
-    'Cuanto te gusta escribir, redactar, argumentar o contar historias?').
+    '¿Cuánto te gusta escribir, redactar, argumentar o contar historias?').
 
 pregunta(q_medios_sociales, especifica, comunicacion,
-    'Cuanto te interesan los medios, las redes sociales, la cultura o la opinion publica?').
+    '¿Cuánto te interesan los medios, las redes sociales, la cultura o la opinión pública?').
 
 pregunta(q_presentar_ideas, especifica, comunicacion,
-    'Cuanto te gusta explicar, presentar o defender ideas frente a otras personas?').
+    '¿Cuánto te gusta explicar, presentar o defender ideas frente a otras personas?').
 
 % Leyes
 
 pregunta(q_argumentacion_debate, especifica, leyes,
-    'Cuanto te interesa argumentar, debatir y defender una postura?').
+    '¿Cuánto te interesa argumentar, debatir y defender una postura?').
 
 pregunta(q_conflictos_normas, especifica, leyes,
-    'Cuanto te interesa analizar conflictos, normas, responsabilidades o derechos?').
+    '¿Cuánto te interesa analizar conflictos, normas, responsabilidades o derechos?').
 
 % Investigacion
 
 pregunta(q_experimentos_hipotesis, especifica, investigacion,
-    'Cuanto te interesa formular hipotesis, comparar evidencias o investigar problemas?').
+    '¿Cuánto te interesa formular hipótesis, comparar evidencias o investigar problemas?').
 
 pregunta(q_analisis_datos, especifica, investigacion,
-    'Cuanto te interesa transformar informacion en conclusiones utiles?').
+    '¿Cuánto te interesa transformar información en conclusiones útiles?').
 
 % ============================================================
 % ORDEN ESTABLE DE PREGUNTAS
@@ -331,10 +331,10 @@ area_regla(investigacion, q_analisis_datos, 4, 'interes en analisis de informaci
 % Ingenieria en Sistemas
 
 regla(r_sis_tecnologia, ingenieria_sistemas, q_interes_tecnologia, 5,
-    'muestra interes en tecnologia').
+    'muestra interés en tecnología').
 
 regla(r_sis_logica, ingenieria_sistemas, q_matematica_logica, 5,
-    'se siente comodo con logica, matematica y abstraccion').
+    'se siente cómodo con lógica, matemática y abstracción').
 
 regla(r_sis_programacion, ingenieria_sistemas, q_programacion, 5,
     'le interesa programar y construir soluciones con software').
@@ -351,107 +351,107 @@ regla(r_sis_salida, ingenieria_sistemas, q_salida_laboral, 2,
 % Tecnicatura en Programacion
 
 regla(r_prog_tecnologia, tecnicatura_programacion, q_interes_tecnologia, 4,
-    'muestra interes en tecnologia').
+    'muestra interés en tecnología').
 
 regla(r_prog_programacion, tecnicatura_programacion, q_programacion, 6,
-    'tiene alto interes en programacion').
+    'tiene alto interés en programación').
 
 regla(r_prog_software, tecnicatura_programacion, q_software_apps, 5,
     'le interesa construir aplicaciones').
 
 regla(r_prog_errores, tecnicatura_programacion, q_resolver_errores, 4,
-    'disfruta resolver problemas tecnicos').
+    'disfruta resolver problemas técnicos').
 
 regla(r_prog_salida, tecnicatura_programacion, q_salida_laboral, 4,
-    'busca una salida laboral rapida o concreta').
+    'busca una salida laboral rápida o concreta').
 
 regla(r_prog_logica, tecnicatura_programacion, q_matematica_logica, 3,
-    'tiene afinidad con razonamiento logico').
+    'tiene afinidad con razonamiento lógico').
 
 % Ciencia de Datos
 
 regla(r_datos_tecnologia, ciencia_datos, q_interes_tecnologia, 4,
-    'muestra interes en tecnologia').
+    'muestra interés en tecnología').
 
 regla(r_datos_matematica, ciencia_datos, q_matematica_logica, 5,
-    'se siente comodo con matematica y razonamiento abstracto').
+    'se siente cómodo con matemática y razonamiento abstracto').
 
 regla(r_datos_estadistica, ciencia_datos, q_datos_estadistica, 6,
-    'le interesa analizar datos, patrones y estadisticas').
+    'le interesa analizar datos, patrones y estadísticas').
 
 regla(r_datos_investigacion, ciencia_datos, q_investigacion, 4,
-    'tiene interes por investigar y analizar informacion').
+    'tiene interés por investigar y analizar información').
 
 regla(r_datos_analisis, ciencia_datos, q_analisis_datos, 5,
-    'le interesa convertir informacion en conclusiones utiles').
+    'le interesa convertir información en conclusiones útiles').
 
 regla(r_datos_hipotesis, ciencia_datos, q_experimentos_hipotesis, 3,
-    'le interesa trabajar con hipotesis y evidencia').
+    'le interesa trabajar con hipótesis y evidencia').
 
 % Medicina
 
 regla(r_med_salud, medicina, q_interes_salud, 6,
-    'muestra fuerte interes en salud').
+    'muestra fuerte interés en salud').
 
 regla(r_med_biologia, medicina, q_biologia_cuerpo, 6,
-    'le interesa la biologia y el cuerpo humano').
+    'le interesa la biología y el cuerpo humano').
 
 regla(r_med_clinica, medicina, q_contextos_clinicos, 5,
-    'se siente comodo con contextos clinicos').
+    'se siente cómodo con contextos clínicos').
 
 regla(r_med_pacientes, medicina, q_cuidado_pacientes, 4,
     'le interesa el cuidado de pacientes').
 
 regla(r_med_estudio_largo, medicina, q_estudio_largo, 5,
-    'esta dispuesto a estudiar una carrera larga y exigente').
+    'está dispuesto a estudiar una carrera larga y exigente').
 
 regla(r_med_lectura, medicina, q_lectura_teoria, 3,
-    'tolera el estudio teorico intenso').
+    'tolera el estudio teórico intenso').
 
 % Enfermeria
 
 regla(r_enf_salud, enfermeria, q_interes_salud, 5,
-    'muestra interes en salud').
+    'muestra interés en salud').
 
 regla(r_enf_pacientes, enfermeria, q_cuidado_pacientes, 6,
-    'tiene interes en cuidar y asistir pacientes').
+    'tiene interés en cuidar y asistir pacientes').
 
 regla(r_enf_clinica, enfermeria, q_contextos_clinicos, 5,
-    'se siente comodo en contextos sanitarios').
+    'se siente cómodo en contextos sanitarios').
 
 regla(r_enf_personas, enfermeria, q_interes_personas, 4,
     'le interesa trabajar con personas').
 
 regla(r_enf_empatia, enfermeria, q_escucha_empatia, 4,
-    'muestra empatia y capacidad de escucha').
+    'muestra empatía y capacidad de escucha').
 
 regla(r_enf_biologia, enfermeria, q_biologia_cuerpo, 3,
-    'tiene interes en biologia y salud').
+    'tiene interés en biología y salud').
 
 % Psicologia
 
 regla(r_psi_personas, psicologia, q_interes_personas, 5,
-    'muestra interes en las personas').
+    'muestra interés en las personas').
 
 regla(r_psi_empatia, psicologia, q_escucha_empatia, 6,
-    'muestra empatia y buena escucha').
+    'muestra empatía y buena escucha').
 
 regla(r_psi_comportamiento, psicologia, q_comportamiento_humano, 6,
     'le interesa comprender la conducta humana').
 
 regla(r_psi_acompanar, psicologia, q_acompanar_personas, 5,
-    'le interesa acompanar u orientar a otras personas').
+    'le interesa acompañar u orientar a otras personas').
 
 regla(r_psi_lectura, psicologia, q_lectura_teoria, 4,
-    'tolera lectura y estudio teorico').
+    'tolera lectura y estudio teórico').
 
 regla(r_psi_comunicacion, psicologia, q_comunicacion, 3,
-    'tiene interes en comunicarse con otros').
+    'tiene interés en comunicarse con otros').
 
 % Derecho
 
 regla(r_der_leyes, derecho, q_leyes_normas, 6,
-    'muestra interes en leyes, normas y justicia').
+    'muestra interés en leyes, normas y justicia').
 
 regla(r_der_argumentacion, derecho, q_argumentacion_debate, 6,
     'le interesa argumentar y defender posturas').
@@ -460,7 +460,7 @@ regla(r_der_conflictos, derecho, q_conflictos_normas, 5,
     'le interesa analizar conflictos, responsabilidades y derechos').
 
 regla(r_der_lectura, derecho, q_lectura_teoria, 5,
-    'tolera lectura teorica y textos complejos').
+    'tolera lectura teórica y textos complejos').
 
 regla(r_der_redaccion, derecho, q_redaccion, 4,
     'le gusta redactar y construir argumentos').
@@ -471,27 +471,27 @@ regla(r_der_presentar, derecho, q_presentar_ideas, 3,
 % Contador Publico
 
 regla(r_cont_economia, contador_publico, q_economia_gestion, 5,
-    'muestra interes en economia y gestion').
+    'muestra interés en economía y gestión').
 
 regla(r_cont_numeros, contador_publico, q_numeros_finanzas, 6,
-    'le interesan numeros, finanzas e impuestos').
+    'le interesan números, finanzas e impuestos').
 
 regla(r_cont_matematica, contador_publico, q_matematica_logica, 4,
-    'se siente comodo con calculos y razonamiento logico').
+    'se siente cómodo con cálculos y razonamiento lógico').
 
 regla(r_cont_organizacion, contador_publico, q_organizacion_empresas, 4,
-    'le interesa la organizacion administrativa').
+    'le interesa la organización administrativa').
 
 regla(r_cont_salida, contador_publico, q_salida_laboral, 3,
     'valora una salida laboral concreta').
 
 regla(r_cont_lectura, contador_publico, q_lectura_teoria, 2,
-    'tolera normas, teoria y documentacion').
+    'tolera normas, teoría y documentación').
 
 % Administracion de Empresas
 
 regla(r_adm_economia, administracion_empresas, q_economia_gestion, 5,
-    'muestra interes en economia, gestion y negocios').
+    'muestra interés en economía, gestión y negocios').
 
 regla(r_adm_organizacion, administracion_empresas, q_organizacion_empresas, 6,
     'le interesa organizar recursos, procesos y equipos').
@@ -500,7 +500,7 @@ regla(r_adm_decisiones, administracion_empresas, q_toma_decisiones_negocios, 6,
     'le interesa tomar decisiones de negocio').
 
 regla(r_adm_comunicacion, administracion_empresas, q_comunicacion, 3,
-    'tiene interes en comunicar y coordinar ideas').
+    'tiene interés en comunicar y coordinar ideas').
 
 regla(r_adm_equipo, administracion_empresas, q_trabajo_equipo, 4,
     'le gusta trabajar en equipo').
@@ -511,39 +511,39 @@ regla(r_adm_salida, administracion_empresas, q_salida_laboral, 3,
 % Diseno Grafico
 
 regla(r_diseno_creatividad, diseno_grafico, q_creatividad_visual, 6,
-    'muestra interes creativo y visual').
+    'muestra interés creativo y visual').
 
 regla(r_diseno_visual, diseno_grafico, q_diseno_visual, 6,
     'le interesa crear piezas visuales o interfaces').
 
 regla(r_diseno_multimedia, diseno_grafico, q_creacion_multimedia, 5,
-    'le interesa crear contenido grafico o multimedia').
+    'le interesa crear contenido gráfico o multimedia').
 
 regla(r_diseno_comunicacion, diseno_grafico, q_comunicacion, 3,
-    'tiene interes en comunicar ideas').
+    'tiene interés en comunicar ideas').
 
 regla(r_diseno_presentar, diseno_grafico, q_presentar_ideas, 3,
     'le interesa expresar y presentar ideas visualmente').
 
 regla(r_diseno_medios, diseno_grafico, q_medios_sociales, 2,
-    'muestra interes en medios, cultura o redes').
+    'muestra interés en medios, cultura o redes').
 
 % Arquitectura
 
 regla(r_arq_creatividad, arquitectura, q_creatividad_visual, 5,
-    'muestra interes creativo y visual').
+    'muestra interés creativo y visual').
 
 regla(r_arq_espacios, arquitectura, q_espacios_objetos, 6,
-    'le interesa disenar espacios, edificios u objetos').
+    'le interesa diseñar espacios, edificios u objetos').
 
 regla(r_arq_matematica, arquitectura, q_matematica_logica, 4,
-    'se siente comodo con razonamiento matematico y espacial').
+    'se siente cómodo con razonamiento matemático y espacial').
 
 regla(r_arq_diseno, arquitectura, q_diseno_visual, 4,
-    'le interesa el diseno visual').
+    'le interesa el diseño visual').
 
 regla(r_arq_estudio_largo, arquitectura, q_estudio_largo, 3,
-    'esta dispuesto a sostener una carrera exigente').
+    'está dispuesto a sostener una carrera exigente').
 
 regla(r_arq_presentar, arquitectura, q_presentar_ideas, 3,
     'le interesa presentar y defender proyectos').
@@ -551,13 +551,13 @@ regla(r_arq_presentar, arquitectura, q_presentar_ideas, 3,
 % Comunicacion Social
 
 regla(r_comsoc_comunicacion, comunicacion_social, q_comunicacion, 6,
-    'muestra interes general en comunicacion').
+    'muestra interés general en comunicación').
 
 regla(r_comsoc_redaccion, comunicacion_social, q_redaccion, 6,
     'le gusta escribir, redactar o contar historias').
 
 regla(r_comsoc_medios, comunicacion_social, q_medios_sociales, 6,
-    'le interesan los medios, redes, cultura u opinion publica').
+    'le interesan los medios, redes, cultura u opinión pública').
 
 regla(r_comsoc_presentar, comunicacion_social, q_presentar_ideas, 4,
     'le gusta presentar o explicar ideas').
@@ -858,7 +858,7 @@ resumen_recomendacion(Carrera, Respuestas, Resumen) :-
 construir_resumen(Nombre, [], Resumen) :-
     format(
         atom(Resumen),
-        '~a aparece en el ranking por afinidad general, aunque todavia no tiene reglas positivas fuertes activadas.',
+        '~a aparece en el ranking por afinidad general, aunque todavía no tiene reglas positivas fuertes activadas.',
         [Nombre]
     ).
 

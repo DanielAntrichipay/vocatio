@@ -17,7 +17,7 @@ public class ExceptionController {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ProblemDetail genericException(Exception exception) {
         ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.INTERNAL_SERVER_ERROR);
-        problemDetail.setTitle("Ups algo pasó");
+        problemDetail.setTitle("Ups, algo pasó");
         problemDetail.setDetail(exception.getMessage());
         problemDetail.setType(URI.create("https://developer.mozilla.org/es/docs/Web/HTTP/Status/500"));
         log.info("exception Exception{}", exception.getMessage());
@@ -28,7 +28,7 @@ public class ExceptionController {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ProblemDetail runtimeException(RuntimeException exception) {
         ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.INTERNAL_SERVER_ERROR);
-        problemDetail.setTitle("Ocurrio un incoveniente");
+        problemDetail.setTitle("Ocurrió un inconveniente");
         problemDetail.setDetail("Si el inconveniente persiste, contacte con el administrador");
         problemDetail.setType(URI.create("https://developer.mozilla.org/es/docs/Web/HTTP/Status/500"));
         log.error("Error caused by {}", exception.toString() + " " + exception);
@@ -39,7 +39,7 @@ public class ExceptionController {
     @ResponseStatus(HttpStatus.BAD_REQUEST)
     public ProblemDetail requestException(BadRequestException exception) {
         ProblemDetail problemDetail = ProblemDetail.forStatus(HttpStatus.BAD_REQUEST);
-        problemDetail.setTitle("Ups, algo paso");
+        problemDetail.setTitle("Ups, algo pasó");
         problemDetail.setDetail(exception.getMessage());
         problemDetail.setType(URI.create("https://developer.mozilla.org/es/docs/Web/HTTP/Status/400"));
         log.info("Exception RequestException: {}", exception.getMessage());
