@@ -1,6 +1,6 @@
 # 🎓 Vocatio — Sistema Experto de Orientación Vocacional
 
-Sistema experto de orientación vocacional que recomienda carreras universitarias a través de una **entrevista adaptativa impulsada por inteligencia artificial basada en reglas (Prolog)**.
+Sistema experto de orientación vocacional que recomienda carreras universitarias a través de una **entrevista adaptativa basada en (Prolog)**.
 
 El motor de inferencia evalúa las respuestas del usuario en tiempo real, descarta preguntas irrelevantes, profundiza en áreas de interés y genera un ranking personalizado de carreras con explicaciones transparentes.
 
