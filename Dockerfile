@@ -32,6 +32,7 @@ FROM eclipse-temurin:25-jdk-noble AS runtime
 # Instalar SWI-Prolog con bindings JPL
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
+        curl \
         swi-prolog-core \
         swi-prolog-java && \
     rm -rf /var/lib/apt/lists/*
@@ -54,7 +55,7 @@ EXPOSE 8080
 
 # Healthcheck para verificar que la app responde
 HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
-    CMD curl -f http://localhost:8080/swagger-ui.html || exit 1
+    CMD curl -f http://localhost:8080/v3/api-docs || exit 1
 
 ENTRYPOINT ["java", \
     "--enable-native-access=ALL-UNNAMED", \
